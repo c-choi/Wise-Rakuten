@@ -1,0 +1,648 @@
+@charset "Shift_JIS";
+
+#searchform4 {
+	width: 200px;
+	background-attachment: scroll;
+	background-position: center center;
+	display: block;
+	height: 24px;
+	position: relative;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+} 
+#search {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 800px;
+	margin-right: 0px;
+	margin-left: 0px;
+	vertical-align: middle;
+}
+#sitem {
+	width: 190px;
+	position: absolute;
+	border-width: 1px;
+	border-style: solid;
+	vertical-align: middle;
+} 
+#searchBtn4 {
+	left: 200px;
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
+
+
+
+
+
+img{
+	border: 0; vertical-align: bottom; 
+}
+
+#multiHero{
+	width: 600px;
+	margin-top: 0px;
+	margin-right: 55px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: left;
+	height: 435px;
+}
+#multiHeroContents{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#multiHeroContents li{
+	display: none;
+}
+#multiHeroControls{
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	position: relative;
+}
+#multiHeroControls li{
+	float: left;
+}
+#multiHeroControls li.next,
+#multiHeroControls li.back{
+	float: right;
+}
+#multiHeroControls li a{
+	display: block;
+	padding: 5px 5px;
+	margin-right: 5px;
+	border: 1px solid #CCCCCC;
+	color: #666666;
+	font-size: 70%;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	line-height: 0.75;
+}
+#multiHeroControls li a:hover{
+	background: #CCCCCC;
+}
+#multiHeroControls li.thisChild a{
+	border-color: #666666;
+	background: #666666;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#multiHeroControls li.next a{
+	margin: 0;
+}
+
+
+
+input[type="text"], textarea {
+padding: 2px;
+background: whiteSmoke;
+border: 1px solid #BFBFBF;
+box-shadow: inset 3px 3px 3px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 3px 3px 3px rgba(0,0,0,0.1);
+-webkit-box-shadow: inset 3px 3px 3px rgba(0,0,0,0.1);
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+color: #1f1f1f;
+}
+#searchsubmit:hover {
+	background-color: #777;
+}
+#searchsubmit {
+	border: 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+background-color: #4B4B4B;
+color: white;
+text-transform: uppercase;
+font-size: 10px;
+padding: 4px 6px;
+cursor: pointer;
+}
+
+
+/* body ボディ
+-----------------------------------------------------*/
+
+body {
+	font-family: "Verdana", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Osaka‐等幅";
+font-size:80%;
+line-height: 140%;
+color: #FFFFFF;
+background-image : url(images/bg.gif);
+background-position:center;
+background-color : #001e2f;
+text-align: center;
+margin: 0px auto;
+padding: 0px;
+  background-repeat : repeat;
+}
+
+a:link {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+a:active {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #379bff;
+	text-decoration: underline;
+}
+
+/* container コンテナ
+-----------------------------------------------------*/
+
+#container {
+	width:900px;
+margin: 0px auto;
+background-color : #001e2f;
+text-align: left;
+-webkit-box-shadow:0 0 50px #ffffff;
+-moz-box-shadow:0 0 50px #ffffff;
+box-shadow:0 0 50px #ffffff;
+}
+
+/* header ヘッダー
+-----------------------------------------------------*/
+
+h1 {
+	font-size: 10px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+/* pan パンくずリスト
+-----------------------------------------------------*/
+
+.pan {
+	font-size: 12px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+/* main メイン
+-----------------------------------------------------*/
+
+#main {
+	float:right;
+width:648px;
+margin: 0px 5px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#main .category {
+	width: 648px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#main h2 {
+	height: 17px;
+	font-size: 120%;
+	color: #ffffff;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #cc7602;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 11px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+#main h3 {
+	font-size:105%;
+border-left:#003399 solid 5px;
+border-bottom:#003399 dotted 1px;
+padding: 5px 10px 5px 5px;
+margin: 0px;
+}
+
+#main .entry_body {
+	margin: 15px 24px 15px 24px;
+padding: 0px 0px 0px 0px;
+}
+
+#main p {
+	margin: 10px 10px 20px 10px;
+padding: 0px 0px 0px 0px;
+}
+
+#main blockquote {
+	margin: 20px 10px 20px 10px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+}
+
+#main ul {
+	margin: 0px 30px 0px 28px;
+padding: 0px 0px 10px 0px;
+}
+
+#main ol {
+	margin: 0px 30px 0px 35px;
+padding: 0px 0px 10px 0px;
+}
+
+#main li {
+	line-height: 140%;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 5px 0px;
+}
+
+#main .red {
+	color:#CC0000;
+font-weight:bold;
+}
+
+.modoru {
+	font-size:10px;
+text-align:right;
+padding: 5px 5px 5px 5px;
+margin: 0px 34px 0px 0px;
+}
+
+
+/* main table メインのテーブル
+-----------------------------------------------------*/
+
+#main table ul {
+	margin: 5px 0px 5px 20px;
+padding: 0px 0px 0px 0px;
+}
+
+#main table {
+	margin: 10px 0px 20px 0px;
+padding: 0px 0px 0px 0px;
+width:600px;
+border:solid #cccccc 1px;
+border-collapse:collapse;
+}
+
+#main caption {
+	margin: 0px 0px 10px 0px;
+font-size:110%;
+font-weight:bold;
+}
+
+#main th {
+	padding: 10px 10px 10px 10px;
+border:solid #cccccc 1px;
+background-color:#333333;
+text-align:center;
+}
+
+#main td {
+	padding: 10px 10px 10px 10px;
+border:solid #cccccc 1px;
+}
+
+/* box ボックス
+-----------------------------------------------------*/
+
+#main .box1 {
+	width:576px;
+height:auto;
+border:solid #cccccc 1px;
+margin: 0px 6px 12px 6px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box2 {
+	float: left;
+width:276px;
+border:solid #cccccc 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box3 {
+	float: left;
+width:176px;
+border:solid #cccccc 1px;
+margin: 0px 6px 12px 6px;
+_margin: 0px 3px 12px 3px;
+padding: 5px 5px 5px 5px;
+}
+
+#main .box-img-left {
+	float:left;
+display: inline;
+margin: 10px 5px 5px 5px;
+border:solid #cccccc 1px;
+}
+
+#main .box-img-left3 {
+	margin: 10px 5px 5px 5px;
+border:solid #cccccc 1px;
+}
+
+#main .box-btn {
+	float: right;
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #990000;
+	width: 164px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	_margin: 5px 5px 5px 5px;
+}
+
+#main .box-btn3 {
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #f8f8f8;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #660000;
+	width: 164px;
+	text-align: center;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+#main .box-btn a, #main .box-btn a:link, #main .box-btn a:visited {
+	color: #e1e1e1;
+	text-decoration: none;
+	display: block;
+	background-image: url(images/bottun.gif);
+	background-repeat: repeat-x;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#main .box-btn a:hover {
+	color: #e1e1e1;
+	background-color: #dddddd;
+	background-image: url(images/bottun_h.gif);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+#main .box-btn3 a, #main .box-btn3 a:link, #main .box-btn3 a:visited {
+	color: #e1e1e1;
+	text-decoration: none;
+	display: block;
+	background-image: url(images/bottun.gif);
+	background-repeat: repeat-x;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#main .box-btn3 a:hover {
+	color: #e1e1e1;
+	background-color: #dddddd;
+	background-image: url(images/bottun_h.gif);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#main .clear {
+	clear:both;
+visibility:hidden;
+height: 0;
+padding: 0;
+margin: 0;
+}
+
+/* new 更新情報
+-----------------------------------------------------*/
+
+#main .new {
+	height: 150px;
+overflow: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+#main .new li {
+	border-bottom:#CCCCCC dotted 2px;
+margin: 5px 0px 5px 0px;
+padding: 5px 0px 10px 0px;
+}
+
+/* sub サブ
+-----------------------------------------------------*/
+
+#sub {
+	float:left;
+font-size:12px;
+width:242px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub .category {
+	margin-top: 45px;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	margin-left: 6px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#sub .entry_body {
+	margin: 0px 10px 0px 10px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub p {
+	margin: 15px 0px 15px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub blockquote {
+	margin: 15px 0px 15px 0px;
+padding: 10px 10px 10px 10px;
+border:#999999 dotted 1px;
+}
+
+#sub .soto {
+	margin: 0px 20px 0px 20px;
+}
+
+#sub ul {
+	margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#sub li {
+	line-height: 120%;
+list-style:none;
+font-weight:bold;
+margin: 0px 0px 5px 0px;
+}
+
+#sub li a, #sub li a:link, #sub li a:visited {
+	color: #ffffff;
+	text-decoration: none;
+	background-image : url(images/menu_btn.png);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-size: 14px;
+	display: block;
+	height: 23px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+#sub li a:hover {
+	color: #ffffff;
+	background-color: #cccccc;
+	background-image : url(images/menu_btn_h.png);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	height: 23px;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+/* footer フッター
+-----------------------------------------------------*/
+#footera {
+	float: left;
+	width: 350px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin-top: 30px;
+	margin-left: 90px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+#footerb {
+	float: right;
+	width: 350px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin-top: 30px;
+	margin-right: 90px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+#footer1 {
+	text-align: center;
+	clear: both;
+	font-size: 11px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+#footer p {
+	margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+}
+
+
+#footer {
+	text-align: center;
+	clear: both;
+	font-size: 10px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #003366;
+}
+
+#footer p {
+	margin: 5px 25px 5px 25px;
+padding: 0px 0px 0px 0px;
+}
