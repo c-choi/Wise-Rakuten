@@ -49,13 +49,8 @@ img{
 }
 
 #multiHero{
-	width: 600px;
-	margin-top: 0px;
-	margin-right: 55px;
-	margin-bottom: 0px;
-	margin-left: auto;
-	text-align: left;
-	height: 435px;
+	margin-top: auto;
+	text-align: center;
 }
 #multiHeroContents{
 	margin: 0;

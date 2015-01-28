@@ -9,15 +9,27 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta name="GENERATOR" content="JustSystems Homepage Builder Version 15.0.1.0 for Windows" />
 <link href="bootstrap-3.3.1-dist/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="styles-site2.css" type="text/css" />
+<link rel="stylesheet" href="style-site2.css" type="text/css" />
 <!--script-->
-<script type="text/javascript" src="script/jquery-1.2.6.pack.js"></script>
-<script type="text/javascript" src="bootstrap-3.1.1-dist/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery-1.11.2.min.js">
+
+</script>
+<script type="text/javascript" src="bootstrap-3.3.1-dist/dist/js/bootstrap.min.js">
+$(#sidebar).affix({
+  offset: {
+    top: 100,
+    bottom: function () {
+      return (this.bottom = $('.footer').outerHeight(true))
+    }
+  }
+})  
+</script>
 <script type="text/javascript" src="script/multihero.js"></script>
 <script type="text/javascript">
 // multihero.js Customize
 multihero.interval = 5000;
 multihero.speed = "slow";
+
 </script>
 <!--scriptここまで-->
 
@@ -25,59 +37,25 @@ multihero.speed = "slow";
 <link rel="shortcut icon" href="favicon/favicon.ico" />
 <!--faviconここまで-->
 
-<style type="text/css">
-header{
-  position:fixed;
-  width: 100%;
-  padding:5px;
-  margin-top:0px;
-}
-  #menu-list{
-    display:block;
-    margin:10px;
-    font-size: 18px;
-    font-weight: bolder;
-    background-color:darkgray;
-    text-align: center;
-    padding:10px;
-  }
-.nav-bar{
-  margin-left: 3%;
-  width:90%;
-  z-index: 10;
-  margin-top: 0px;
-}
-#menu-contents{
-  margin:2px;
-  padding:10px;
-  color:white;
-}
-
-</style>
 </head>
 
 <header>
 
-
-<div class="nav-bar">
-<table>
+<div class="nav-bar" >
 <ul>
-<td>
-<div class="Logo">
-
+<table class="logo-bar">
 <a href="http://www.rakuten.ne.jp/gold/ysfull-market/" target="_self" title="クロコダイル本革、牛本革、エキゾチックレザー、クロコダイルレザー、牛レザー製品の「Wise Design（ワイズデザイン）」"><img src="images/wd-logo.png" />
 </a>
+</table>
 
-<h3 style="margin-top: -50px; margin-left:50px; width:150px;">Wise Design</h3></div>
-</td>
-<td>
+<table class="menu-bar">
+
+<td >
 <tr>
 <td>
 <li id="menu-list"><a id="menu-contents" href="http://www.rakuten.ne.jp/gold/ysfull-market/">トップページ</a></li>
 </td>
-<td>
-<li id="menu-list"><a id="menu-contents" href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン</a></li>
-</td>
+<td><li id="menu-list"><a id="menu-contents" href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン</a></li></td>
 <td><li id="menu-list"><a id="menu-contents" href="http://item.rakuten.co.jp/ysfull-market/c/0000000371/">バッグ</a></li></td>
 <td><li id="menu-list"><a id="menu-contents" href="http://item.rakuten.co.jp/ysfull-market/c/0000000372/">財布</a></li></td>
 <td><li id="menu-list"><a id="menu-contents" href="http://item.rakuten.co.jp/ysfull-market/c/0000000373/">名刺入れ</a></li></td>
@@ -94,26 +72,21 @@ header{
 </tr>
 
 </td>
+
+</table> <!--menu-bar close-->
+<tr>
+<h3 style="margin-top: -50px; margin-left:50px; width:150px; z-index: 10;">Wise Design</h3>
+</tr>
 </ul>
-</table>
-</div>
+</div> <!--nav-bar close-->
 
   
 </header><!-- /header -->
 
 <body>
-<style>
-  
-.sidebar{
-  position:relative;
-  top:200px;
-  float: left;
-}
+<span id="sidebar" >
+<div data-spy="affix">
 
-
-</style>
-
-<div class="sidebar">
 <h2><a href="http://www.rakuten.ne.jp/gold/ysfull-market/">「Wise Design（ワイズデザイン）」</a></h2>
 <div class="search">
 <form name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc">
@@ -124,8 +97,8 @@ header{
 <input type="text" name="sitem" />
 <input type="hidden" name="f" value="A"/><a title="商品検索"><input type="image" src="images/search2.png" alt="検索" name="searchBtn4" id="searchBtn4" /></a></form></div>
 
-<div id="body">
-<div class="category">
+
+
 <blockquote>当店取扱い商品の内外装（取手、ベルト、ファスナーチャーム、南京錠）のカラー変更が可能です。<br />
       また当店で取り扱いがない場合でもお問い合せ頂けます。下記をクリックしてお問い合せください。 <br /><br />
 
@@ -137,6 +110,7 @@ header{
       <a href="mailto:ysfull-market@wise-ltd.net" title="財布類のカラーバリエーション等が変更可能です。こちらからお問い合せください！"><img src="images/om2-230.png" width="230" height="142" />
 </a>
  <br />
+</div>
 
 <center>【 カレンダー 】</center> <br />
 <iframe src="single/cal.html" name="稼働日" frameborder="no" bordercolor="0000ff" scrolling="no" marginwidth="0" marginheight="0" width="195" height="180" align="left">
@@ -161,11 +135,13 @@ header{
       <br />
 </div>
 
-
 </div>
+</span>
+
 <!--サイドメニューここまで-->
 
 <!--[if !IE]>メインここから<![endif]-->
+
 <div id="main">
 
 
@@ -493,23 +469,7 @@ header{
 
 <!--フッターここから-->
 
-<style type="text/css">
-.navbar-fixed-bottom {
-  position: relative;
-  bottom: 20px;
-}
-#footera {
-  float: left;
-  margin-left:20px;
-}
-#footerb {
-  float:right;
-  margin-right: 20px;
-}
-footer {
-  clear: whole;
-}
-</style>
+
 <nav class="navbar-fixed-bottom">
 <div id="footer1"><a href="http://www.rakuten.co.jp/ysfull-market/info2.html" target="_blank" title="ご利用ガイド詳細ページへ"><img src="images/goriyou.gif" width="750" height="25" border="0" /></a>
     <div id="footera"><a title="お支払いについて"><img src="images/oshiharai.gif" width="350" height="20" border="0" /></a><br />
@@ -577,7 +537,7 @@ footer {
 <!--フッターここまで-->
 </nav>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery-1.11.2.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.1-dist/dist/js/bootstrap.min.js"></script>
 </body>
