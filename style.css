@@ -1,70 +1,75 @@
-
-.navbar-header {
+#navbar-fluid, .navbar-brand,.navbar-fixed-top, .navbar-inverse, .navbar-header, .navbar-left, .navbar-right {
+  background-color: #001e2f;
   z-index: 10;
-}
-
-.navbar-nav>li {
-  display: block;
-  margin: 0px 5px;
-}
-
-#navbar .navbar .navbar-inverse .navbar-fixed-top .navbar-header {
-  background-color: #070751;
+  opacity: 0.98;
 }
 
 
-.navbar-nav>li>a {
-  font-weight: bold;
-  background-color: black;
-  border-radius: 20;
-}
 
-.navbar-nav>li>a:hover {
-  font-weight: bold;
-  background-color: darkgray;
-}
+
+
 .navbar-brand {
     font-weight: bold;
+    z-index: 10;
+    opacity: 1;
 }
-.navbar-form>#searchBtn4 {
 
+#searchform4{
+  display:block;
+  margin-right:2px;
 }
-
 /* Header End
 */
 
-.page-header a {
-  color: black;
+h1, h2, h3, h4, li, a, p {
+  font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ Ｐゴシック", sans-serif;
 }
 
-#sidebar .category {
-text-align: center;
-
-}
-.well {
-
-}
 
 .main {
   margin-top: 3%;
 }
 
+.page-header a {
+  color: black;
+}
+
+
+#sidebar .category {
+text-align: center;
+opacity: 0.98;
+}
+.well {
+width: 98%;
+}
+
+.jumbotron {
+  height: auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: auto;
+}
+
+
 #multiHero{
   width:100%;
-  margin-top: ;
-  margin-right: 55px;
   margin-bottom: 0px;
-  margin-left: auto;
-  text-align: left;
-  height:100%;
+  text-align: center;
+  height: auto;
+  min-height: 300px;
+  width:96%;
+  margin-left: 2%;
+
 }
 #multiHeroContents{
-  margin: 0;
-  padding: 0;
   list-style-type: none;
+  min-height: 250px;
+  height: auto;
+  width:100%;
+
 }
-#multiHeroContents li{
-  display: none;
+#multiHeroContents>li{
+  display: block;
 }
 #multiHeroControls{
   margin-top: 5px;
@@ -83,7 +88,7 @@ text-align: center;
 #multiHeroControls li a{
   display: block;
   padding: 5px 5px;
-  margin-right: 2px;
+
   border: 1px solid #CCCCCC;
   color: #666666;
   font-size: 70%;
@@ -103,6 +108,21 @@ text-align: center;
 #multiHeroControls li.next a{
   margin: 0;
 }
+
+
+.table-striped {
+  text-align: center;
+}
+.table-responsive{
+  margin:0px;
+  padding:0px;
+}
+.img-responsive {
+  width:96%;
+  margin-left: 2%;
+  margin-right:2%;
+  text-align: center;
+}
 /* Body End
 */
 
@@ -114,6 +134,7 @@ text-align: center;
 #footer-img {
   height:25px;
 }
+
 #img-guide {
   height:28px;
 }
@@ -124,12 +145,24 @@ text-align: center;
     padding:1px;
 }
 
-#footer-main {
-    background-color:#070751;
+#footer-main , #copyright-footer {
+    background-color:#001e2f;
+    opacity: 0.95;
 
 }
 #copyright-footer {
   clear: both;
-  background-color:#070751;
   color:white;
 }
+
+
+
+
+
+                
+                  
+              
+               
+                  
+                
+            
