@@ -48,7 +48,7 @@
     multihero.speed = "slow";
     </script>
 
-    <script type="text/javascript" src="jquery-1.11.2.min.js">
+  <script type="text/javascript" src="jquery-1.11.2.min.js">
 // element
 imagesLoaded( document.querySelector('#sidebar, #multihero, #new-item'), function( instance ) {
   console.log('all images are loaded');
@@ -70,6 +70,12 @@ imgLoad.on( 'always', function() {
 });
 
 </script>
+
+<style type="text/css" media="screen">
+ a:hover, a:focus, a:-webkit-any-link {
+  text-decoration: none;
+} 
+</style>
   </head>
 
   <body>
@@ -82,7 +88,7 @@ imgLoad.on( 'always', function() {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><span><img src="favicon/favicon.ico" alt="Wise Design">  ワイズデザイン</span></a>
+          <a class="navbar-brand" href="#"><span><img id="navbar-icon" src="images/wise-design logo.png" alt="Wise Design">  ワイズデザイン</span></a>
         </div><!--navbar header-->
 
         <div class="navbar-collapse collapse" id="navbar-collapse">
@@ -124,7 +130,8 @@ imgLoad.on( 'always', function() {
           </ul>
            
 
-            <form class="navbar-form navbar-right" name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc">
+            <form class="navbar-form navbar-right hidden-xs hidden-sm hidden-md" name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" role="search">
+            <div class="form-group">
             <input type="hidden" class="form-control" name="sv" value="6"/>
             <input type="hidden" class="form-control" name="sid" value="270712"/>
             <input type="hidden" class="form-control" name="su" value="http://www.rakuten.ne.jp/gold/ysfull-market/"/>
@@ -133,9 +140,10 @@ imgLoad.on( 'always', function() {
             <input type="hidden" class="form-control" name="f" value="A"/>
             <a title="商品検索">
             <button type="submit" class="btn btn-primary" >
-            <span class="glyphicon glyphicon-search" aria-hidden="true" alt="検索" name="searchBtn4" id="searchBtn4"></span>
+            <span class="glyphicon glyphicon-search" aria-hidden="true" alt="検索" name="searchBtn4" id="searchBtn4"> </span>
             </button>
             </a>
+            </div>
             </form>
      
         </div> 
@@ -196,11 +204,13 @@ imgLoad.on( 'always', function() {
   <!-- ----------------------------------------------------------------- -->  
 
     <div class="col-sm-9 col-md-10 main">
-          <h1 class="page-header"><strong>
-          <a href="http://www.rakuten.ne.jp/gold/ysfull-market/">
+        <div class="panel panel-default">  <h1 class="page-header"><strong>
+          <a href="http://www.rakuten.ne.jp/gold/ysfull-market/" style="text-decoration:none">
+          <img id="brand-icon" src="images/wise-design logo.png" alt="Wise Design"  style="float:left">
           「Wise Design（ワイズデザイン）」
 <h2>クロコダイル本革、牛本革のビジネスバッグ、バッグ、財布、名刺入れ、カードケースの通販ショップ </h2>
           </a></strong></h1>
+          </div>
 
           <div class="row">
         <div class="col-sm-hidden col-md-2"></div>
@@ -326,7 +336,7 @@ imgLoad.on( 'always', function() {
 <div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/10000351/"><img class="img-responsive" align="center" src="images/syoruda-bakku.jpg" border="0"/></a></div>
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000351/">クロコダイルの本革を使用したショルダーバック<br />デザイン性も良く、存在感はバツグンです！</a><br />
           Wise価格　540,000円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000351/" title="クロコダイル本革 ショルダーバック 購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000351/" title="クロコダイル本革 ショルダーバック 購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 <td>
@@ -338,7 +348,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000341/">カード18枚という優れた収納力を誇るクロコダイル ロングカードケース</a><br />
           <br />
           Wise価格　86,400円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000341/" title="クロコダイル ロングカードケース購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000341/" title="クロコダイル ロングカードケース購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 
@@ -349,7 +359,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000346/">クロコダイル革でしか味わうことの出来ない質感と艶やかさ。ミニハンドバッグWD。<br />
           </a><br />
           Wise価格　259,200円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000346/" title="クロコダイル レディース ミニハンドバッグWD購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000346/" title="クロコダイル レディース ミニハンドバッグWD購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 </tr>
@@ -371,7 +381,7 @@ imgLoad.on( 'always', function() {
           ビジネスバッグ</a><br />
           <br />
           Wise価格　1,188,000円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000334/" title="クロコダイル“ヌバック” ビジネスバッグ H285購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000334/" title="クロコダイル“ヌバック” ビジネスバッグ H285購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 
@@ -384,7 +394,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000336/">“無菌室”でしか作れない非常に入手困難で希少価値の高いビジネスバッグ</a><br />
           <br />
           Wise価格　950,400円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000336/" title="クロコダイル“スノーホワイト” ビジネスバッグ H285購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000336/" title="クロコダイル“スノーホワイト” ビジネスバッグ H285購入ページへ">ご購入ページ</a></div>
 </div></td>
 
 
@@ -395,7 +405,7 @@ imgLoad.on( 'always', function() {
 <div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/10000335/" title="世界共通の最高級皮革クロコダイルで、海外でもお洒落に決めるパスポートケース"><img class="img-responsive" align="center" src="images/9510-164-100.png" alt="世界共通の最高級皮革クロコダイルで、海外でもお洒落に決めるパスポートケース" /></a></div>
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000335/">世界共通の最高級皮革クロコダイルで、海外でもお洒落に決めるパスポートケース</a><br />
           Wise価格　70,200円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000335/" title="クロコダイル本革パスポートケース購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000335/" title="クロコダイル本革パスポートケース購入ページへ">ご購入ページ</a></div>
 </div>
         <br class="clear" />
 
@@ -412,7 +422,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000302/">&quot;皮革の宝石&quot; クロコダイルレザーを贅沢に使用したラウンドファスナー長財布</a><br />
           当店一番人気の商品です！<br />
           Wise価格　108,000円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000302/" title="クロコダイルRF長財布購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000302/" title="クロコダイルRF長財布購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 
@@ -423,7 +433,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000329/">カラーバリエーション豊富な魅せる大人のクロコダイルレザー カードケース</a><br />
           これ1つでカード収納もok！<br />
           Wise価格　19,440円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000329/" title="クロコダイルカードケース購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000329/" title="クロコダイルカードケース購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 
@@ -435,7 +445,7 @@ imgLoad.on( 'always', function() {
           <br />
           </a><br />
           Wise価格　594,000円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000298/" title="クロコダイルブリーフバッグ購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000298/" title="クロコダイルブリーフバッグ購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 </tr>
@@ -452,7 +462,7 @@ imgLoad.on( 'always', function() {
 <div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/10000317/" title="様々なシーンでお使いいただける女性用クロコダイル バッグ（ハンドバッグ）。"><img class="img-responsive" align="center" src="images/toppage-new-item-hand-bag1.png" alt="様々なシーンでお使いいただける女性用クロコダイル バッグ（ハンドバッグ）。" /></a></div>
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000317/">様々なシーンでお使いいただける女性用クロコダイル バッグ（ハンドバッグ）。</a><br />
           Wise価格　367,500円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000317/" title="クロコダイル レディース ハンドバッグ購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000317/" title="クロコダイル レディース ハンドバッグ購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 <td>
@@ -464,7 +474,7 @@ imgLoad.on( 'always', function() {
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000345/">皮革の宝石クロコダイルを<br />
           贅沢にセンター取りし、さり気ないお洒落を演出。</a><br />
           Wise価格　410,400円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000345/" title="クロコダイル本革 レディース ミニハンドバッグLCD購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000345/" title="クロコダイル本革 レディース ミニハンドバッグLCD購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 <td>
@@ -473,7 +483,7 @@ imgLoad.on( 'always', function() {
 <div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/10000324/" title="上質なクロコダイル革を贅沢に使ったこだわりのミディアム スクエア バッグ"><img class="img-responsive" align="center" src="images/toppage-new-item-MS-bag.png" alt="上質なクロコダイル革を贅沢に使ったこだわりのミディアム スクエア バッグ" /></a></div>
 <p><a href="http://item.rakuten.co.jp/ysfull-market/10000324/">上質なクロコダイル革を贅沢に使ったこだわりのミディアム スクエア バッグ</a><br />
           Wise価格　372,600円</p>
-<div class="box-btn3"><a href="http://item.rakuten.co.jp/ysfull-market/10000324/" title="クロコダイル ミディアム スクエア バッグ購入ページへ">ご購入ページ</a></div>
+<div class="btn btn-default hidden-xs"><a href="http://item.rakuten.co.jp/ysfull-market/10000324/" title="クロコダイル ミディアム スクエア バッグ購入ページへ">ご購入ページ</a></div>
 </div>
 </td>
 <br class="clear" />
@@ -482,11 +492,12 @@ imgLoad.on( 'always', function() {
   </tbody>
             </table>
           </div><!--table-responsive close-->
+          <br/>
 
 <!-- ----------------------------------------------------------------- -->
 
-
-<div class="modoru"><a href="#top"><h4><strong>ページ上に戻る</strong></h4></a></div>
+ 
+<center><div class="modoru"><a href="#top"><h4><strong>ページ上に戻る</strong></h4></a></div></center>
 <!-- ----------------------------------------------------------------- -->
 
 
@@ -500,19 +511,19 @@ imgLoad.on( 'always', function() {
 <footer class="footer">
 <div id="footer-main" class="container-fluid col-md-10 col-sm-9">
 <div id="footer-wide">
-<a href="http://www.rakuten.co.jp/ysfull-market/info2.html" target="_blank" title="ご利用ガイド詳細ページへ"><img id="img-guide" src="images/goriyou.gif"/></a>
+<center><a href="http://www.rakuten.co.jp/ysfull-market/info2.html" target="_blank" title="ご利用ガイド詳細ページへ"><img id="img-guide" src="images/goriyou.gif"/></a></center>
 </div>
 <div id="footera" class="col-sm-9 col-md-offset-2 col-md-4"><a title="お支払いについて"><img id="footer-img" src="images/oshiharai.gif" style="width:365px"/></a><br />
     <br />
     　　・クレジットカード、銀行振込がご利用頂けます。<br />
     　　・ご利用可能クレジットカードは以下の通りです。<br />
-    <a title="商品の発送について"><img id="footer-img" src="images/card.gif" /><br />
+    <a title="商品の発送について"><img id="footer-img2" src="images/card.gif" /><br />
     <br />
     <img id="footer-img" src="images/hassou.gif"/></a><br />
     <br />
     　　・利用運送便：佐川急便　／　<a href="http://www.rakuten.co.jp/ysfull-market/info2.html" target="_blank">配送料金はこちら</a><br />
     　　・ご購入時、下記お届け時間帯のご指定が可能です。 <br />
-    <img id="footer-img" src="images/sagawa-jikan350.gif"/><br />
+    <img id="footer-img2" src="images/sagawa-jikan350.gif"/><br />
     <br />
     　　※配達日もご指定頂けます。<br />
     　　 　道路状況や天候によりご希望の配達指定日にお届け<br />
