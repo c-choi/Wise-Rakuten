@@ -3,7 +3,10 @@
   z-index: 10;
   opacity: 0.98;
 }
-
+ul.nav li.dropdown:hover > ul.dropdown-menu{
+    display: block;
+    margin: 0;
+}
 #navbar-icon {
   width:25px;
   margin:0px;
