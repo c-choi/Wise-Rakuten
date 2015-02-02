@@ -2,7 +2,6 @@
 #navbar-fluid, .navbar-brand,.navbar-fixed-top, .navbar-inverse, .navbar-header, .navbar-left, .navbar-right {
   background-color: #001e2f;
   z-index: 10;
-
   opacity: 0.98;
 }
 
