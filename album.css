@@ -1,7 +1,9 @@
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
-
+#rakutenLimitedId_header {
+  display: none;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #001e2f;
