@@ -58,6 +58,8 @@ li>a {
   display:block;
   display: table;
   width:100%;
+  z-index:9999;
+
 }
 .navbar>div {
   display: inline;
@@ -121,6 +123,47 @@ nav.sticky {
 .navbar-collapse .text-muted {
   color: #818a91;
 }
+}
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: left;
+  }
+}
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+@media (min-width: 768px) {
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    visibility: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  }
 #navbar-icon {
   width: 35px;
   height: 35px;
@@ -688,8 +731,8 @@ fieldset[disabled] a.btn {
          
           <a class="navbar-brand" href="http://www.rakuten.ne.jp/gold/ysfull-market/"><span><img id="navbar-icon" src="http://www.rakuten.ne.jp/gold/ysfull-market/images/wd-logo.gif" alt="Wise Design"> WISE DESIGN </span></a>
         </div><!--navbar header-->
-
-        <div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+      
           <ul class="nav navbar-nav">
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン</a>
             </li>
