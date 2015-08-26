@@ -1,0 +1,831 @@
+<html>
+<head>
+
+<style type="text/css">
+body {
+  margin: 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+a{
+  color: #337ab7;
+  text-decoration: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+li {
+    
+    text-align: -webkit-match-parent;
+}
+li>a {
+  text-decoration: none;
+      box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  background-color: #001e2f;
+  display:block;
+  display: table;
+  width:100%;
+}
+.navbar>div {
+  display: inline;
+}
+.navbar-nav>li {
+  display: inline-block !important;
+}
+.navbar-nav {
+  float:left;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 20px;
+    color: #9d9d9d;
+
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 15px;
+}
+.nav {
+  list-style: none;
+}
+nav.sticky { 
+  position: fixed; top: 0; 
+}
+.navbar-brand {
+  font-weight: bold;
+  color:#DDDDDD !important;
+   text-decoration: none;
+       font-size: 18px;
+    line-height: 10px;
+        float: left;
+    height: 50px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px !important;
+}
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+.dropdown-menu {
+  background-color: #2f2f4d;
+}
+.dropdown-menu>li>a {
+  color: #9d9d9d;
+}
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
+}
+#navbar-icon {
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.navbar-right {
+  float:right;
+}
+.navbar-header {
+  display: block;
+
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
+  background-image: linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+  background-color: #e8e8e8;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+  background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));
+  background-image: linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+  background-color: #2e6da4;
+}
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f8f8f8));
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#e2e2e2));
+  background-image: linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
+}
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.navbar-inverse {
+  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background-image: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222222));
+  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border-radius: 4px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);
+  background-image: -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#080808), to(#0f0f0f));
+  background-image: linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);
+  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  border-radius: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+   max-height: 340px;
+}
+  .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0px !important;
+    padding-top: 15px;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+  .navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  .navbar-form .form-control-static {
+    display: inline-block;
+  }
+  .navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  .navbar-form .input-group .input-group-addon,
+  .navbar-form .input-group .input-group-btn,
+  .navbar-form .input-group .form-control {
+    width: auto;
+  }
+  .navbar-form .input-group > .form-control {
+    width: 100%;
+  }
+  .navbar-form .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.dropdown-submenu{
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu{
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+.dropdown-submenu:hover>.dropdown-menu{
+  display:block;
+}
+.dropdown-submenu>a:after{
+  display:block;
+  content:" ";
+float:right;
+width:0;
+height:0;
+border-color:transparent;
+border-style:solid;
+border-width:5px 0 5px 5px;
+border-left-color:#cccccc;
+margin-top:5px;
+margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after{
+  border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left{
+  float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu{
+    left:-100%;
+  margin-left:10px;
+-webkit-border-radius:6px 0 6px 6px;
+-moz-border-radius:6px 0 6px 6px;
+border-radius:6px 0 6px 6px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle:focus {
+  outline: 0;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.open > .dropdown-menu {
+  display: block;
+}
+.open > a {
+  outline: 0;
+}
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+.dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777777;
+  white-space: nowrap;
+}
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
+}
+
+.social a {
+  font-weight: 500;
+  color: #eceeef;
+}
+.social a:hover {
+  color: #fff;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-image: url(http://www.rakuten.ne.jp/gold/ysfull-market/images/italian_flag.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+  font-style: italic;
+  font-weight: bolder;
+  color: #C11313 !important;
+  text-shadow: 0 3px 5px rgba(0,0,0,1);
+}
+.img-half {
+  width:50%;
+  position: relative;
+  float: left;
+}
+.table-responsive {
+  width:100%;
+  border-color: none;
+  border-width: 0px;
+}
+
+td {
+  width:30%;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 1%;
+  padding-right: 2.333%;
+}
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  height: 30rem;
+}
+.card:hover {
+  background-color: #e3e3e3;
+  color:black;
+}
+.card > img {
+  margin-bottom: .75rem;
+  width:100%;
+  text-align: center;
+}
+.card-text {
+  font-size: 85%;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 11px;
+  right: 0;
+  left: 0;
+  width:100%;
+  display: block;
+}
+.footera>p {
+  margin:0px !important;
+}
+.footera, .footerb {
+  text-align: center;
+}
+#img-guide {
+  height:28px;
+}
+
+.well-sm {
+  background-color: darkred;
+  height:25px;
+  color:white;
+  font-weight: 400 !important;
+  padding:3px 20% !important;
+  margin-left: 1%;
+  opacity:0.9;
+  font-size: 15px;
+}
+
+#footer-wide, #footera, #footerb {
+    margin:0px;
+    color:white;
+}
+#footera,#footerb {
+    width:50%;
+    display: block;
+    margin:0px;
+}
+#footera {
+    float: left;
+}
+#footerb {
+    float: right;
+    }
+.footer , #copyright-footer {
+    background-color:#001e2f;
+    opacity: 0.95;
+
+}
+#copyright-footer {
+  clear: both;
+  color:white;
+}
+
+@media (max-width: 992px) {
+  .card{
+    width:33.333%;
+  }
+}
+  @media (max-width: 768px) {
+    .card{
+      width:50%;
+    }
+  }
+@media (max-width: 500px) {
+      .card{
+        width:100%;
+  }
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: visible;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+</style>
+</head>
+<body>
+<nav class="navbar sticky navbar-fixed-top">
+
+        <div class="navbar-header navbar-left">
+         
+          <a class="navbar-brand" href="http://www.rakuten.ne.jp/gold/ysfull-market/"><span><img id="navbar-icon" src="http://www.rakuten.ne.jp/gold/ysfull-market/images/wd-logo.gif" alt="Wise Design"> WISE DESIGN </span></a>
+        </div><!--navbar header-->
+
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン</a>
+            </li>
+                <!--WiseDesignリストここから-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">WISE DESIGN <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000371/">バッグ</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000372/">財布</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">小物</a>
+                <ul class="dropdown-menu">
+
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000373/">名刺入れ</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000374/">ベルト</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000375/">カードケース</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000384/">キーホルダー</a></li>
+            </ul>
+            </li>
+            <li class="divider"></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000382/">その他</a></li>
+            </ul>
+            </li>
+                    <!--WiseDesignリストここまで-->
+                    <!--Parrisリストここから-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Parri's <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000371/">バッグ</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000372/">財布</a></li>
+            <li class="divider"></li>
+                <li class="dropdown-submenu"><a tabindex="-1" href="#">小物</a>
+                <ul class="dropdown-menu">
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000373/">名刺入れ</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000374/">ベルト</a></li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+                    <!--Parrisリストここまで-->
+                    <!--Tedoraリストここから-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">TEDORA <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Componsable</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Bead</a></li>
+                <li><a href="#">Charm</a></li>
+                <li><a href="#">Stoppers</a></li>
+                <li><a href="#">Bases</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Push In</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Chunks</a></li>
+                <li><a href="#">Bases</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Jewels</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Military</a></li>
+                <li><a href="#">Pirates</a></li>
+                </ul>
+            </li>
+            </ul>
+            </li>
+                    <!--Tedoraリストここまで-->
+                    <!--Passavintiリストここから-->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Passavinti <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Silver</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Arazzo</a></li>
+                <li><a href="#">Luxury</a></li>
+                <li><a href="#">Galaxy</a></li>
+                <li><a href="#">Romantica</a></li>
+                <li><a href="#">Reflessi</a></li>
+                <li><a href="#">Infinito</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Bronze</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Capri</a></li>
+                <li><a href="#">Tartan</a></li>
+                <li><a href="#">Movimenti</a></li>
+                <li><a href="#">Forme</a></li>
+                <li><a href="#">Elementi</a></li>
+                <li><a href="#">Trame</a></li>
+                <li><a href="#">Intercci</a></li>
+                </ul>
+            </li>
+            <li class="dropdown-submenu"><a tabindex="-1" href="#">Unisex</a>
+                <ul class="dropdown-menu">
+                <li><a href="#">Firenze</a></li>
+                <li><a href="#">Tartan</a></li>
+                </ul>
+            </li>
+            </ul>
+            </li>
+                    <!--Passavintiリストここまで-->
+                    <!--Rakutenリストここから-->
+            <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">楽天メニュー <span class="caret"></span></a>  
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li><a href="http://www.rakuten.co.jp/ysfull-market/info.html" target="_blank">会社概要</a></li>
+               <li class="divider"></li>
+            <li><a href="http://www.rakuten.co.jp/ysfull-market/info2.html" target="_blank">お支払・送料について</a></li>
+            <li><a href="mailto:ysfull-market@wise-ltd.net?Subject=%82%A8%96%E2%82%A2%8D%87%82%B9%83%81%81%5B%83%8B">お問い合せ</a></li>
+            <li><a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cartall/?l-id=top_normal_cart01" target="_blank">買い物かご</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.rakuten.co.jp/" target="_blank">楽天市場</a></li>
+            </ul>
+            </li>
+            <!--Rakutenリストここまで-->
+
+          </li></ul>
+           
+
+            <form class="navbar-form navbar-right" name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" role="search">
+            <div class="form-group">
+            <input type="hidden" class="form-control" name="sv" value="6">
+            <input type="hidden" class="form-control" name="sid" value="270712">
+            <input type="hidden" class="form-control" name="su" value="http://www.rakuten.ne.jp/gold/ysfull-market/">
+            <input type="hidden" class="form-control" name="sn" value="WISE">
+            <input type="text" class="form-control" name="sitem">
+            <input type="hidden" class="form-control" name="f" value="A">
+            <a title="商品検索">
+            <button type="submit" class="btn btn-primary">
+            <span class="glyphicon glyphicon-search" aria-hidden="true" alt="検索" name="searchBtn4" id="searchBtn4">検索</span>
+            </button>
+            </a>
+            </div>
+            </form>
+     
+        </div> 
+    </nav>
+</body>
+</html>

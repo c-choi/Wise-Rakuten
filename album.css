@@ -116,8 +116,10 @@ border-radius:6px 0 6px 6px;
   color: #C11313 !important;
   text-shadow: 0 3px 5px rgba(0,0,0,1);
 }
-.img-full {
-  width:100%;
+.img-half {
+  width:50%;
+  position: relative;
+  float: left;
 }
 .table-responsive {
   width:100%;
