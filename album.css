@@ -141,24 +141,28 @@ border-radius:6px 0 6px 6px;
 td {
   width:30%;
   text-align: center;
-  vertical-align: middle;
   padding-left: 1%;
   padding-right: 2.333%;
 }
+
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
+  display: table-cell;
 }
 
 .card {
   float: left;
-  width: 33.333%;
-  padding: .75rem;
+  width: 25%;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: auto;
   margin-bottom: 2rem;
   border: 0;
   height: 30rem;
+  z-index: 2;
 }
 .card:hover {
   background-color: #e3e3e3;
@@ -168,15 +172,13 @@ td {
   margin-bottom: .75rem;
   width:100%;
   text-align: center;
-}
-.card-text {
-  font-size: 85%;
+  position: relative;
 }
 
 .footer {
   margin-top: 20px;
   text-align: center;
-    font-size: 11px;
+  font-size: 11px;
 }
 .footera>p {
   margin:0px !important;
@@ -218,12 +220,12 @@ td {
 
 @media (max-width: 992px) {
   .card{
-    width:33.333%;
+    width:25%;
   }
 }
   @media (max-width: 768px) {
     .card{
-      width:50%;
+      width:25%;
     }
   }
 @media (max-width: 500px) {

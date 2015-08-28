@@ -1,0 +1,678 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pso",
+				"position"
+			],
+			[
+				"src",
+				"style.cursor = 'e-resize'	Style CSS"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"rep",
+				"replaceWith	.replaceWith()"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon-",
+				"font-size"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"lists",
+				"list-style"
+			],
+			[
+				"open",
+				"open	Event"
+			],
+			[
+				"o",
+				"open()	Document"
+			],
+			[
+				"s",
+				"scroll	.scroll()"
+			],
+			[
+				"sc",
+				"scroll	Event"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"bottom",
+				"border-bottom-color"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"style",
+				"style	Style CSS"
+			],
+			[
+				"E",
+				"E-mail"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"st",
+				"font-style"
+			],
+			[
+				"e",
+				"uppercase"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"left",
+				"border-left"
+			],
+			[
+				"repea",
+				"background-repeat"
+			],
+			[
+				"first",
+				"firstChild	Node"
+			],
+			[
+				"getE",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"gete",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"opacity",
+				"opacity = '$0'	Style CSS"
+			],
+			[
+				"active",
+				"activeElement	Document"
+			],
+			[
+				"alert",
+				"alert(${0:message})	Window"
+			],
+			[
+				"ALERT",
+				"alert(${0:message})	Window"
+			],
+			[
+				"aler",
+				"alert(${0:message})	Window"
+			],
+			[
+				"getele",
+				"getElementById(${0:id})	Element"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"PCI",
+				"Package Control: Install Package"
+			],
+			[
+				"PCR",
+				"Package Control: Remove Package"
+			],
+			[
+				"PCL",
+				"Package Control: List Packages"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"pci	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"/Applications/Sublime\\ Text\\ 2.app/Contents/SharedSupport/bin/subl -n $@"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/cloudy/Dropbox/Wise International/NetShop/楽天コード/index.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/album.css",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/header.html",
+		"/Applications/MAMP/htdocs/Tedora/index.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/index.html",
+		"/Users/cloudy/Dropbox/Wise In/NetShop/楽天コード/index.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/bootstrap-3.3.5-dist/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/footer.html",
+		"/Applications/MAMP/htdocs/Passavinti/cover.css",
+		"/Applications/MAMP/htdocs/Passavinti/products/trame.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/tartan-men.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/silver.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/romantica.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/riflessi.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/prestige.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/movimenti.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/mosaici.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/men.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/luxury.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/infinito.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/galaxy.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/forme.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/firenze.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/elementi.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/daisy.html",
+		"/Applications/MAMP/htdocs/Passavinti/index.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/tartan.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/capri.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/cathedrale.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/armonia.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/bronze.html",
+		"/Applications/MAMP/htdocs/Passavinti/products/arazzo.html",
+		"/Applications/MAMP/htdocs/Passavinti/bootstrap-3.3.5-dist/js/modalimg.js",
+		"/Applications/MAMP/htdocs/Passavinti/items.html",
+		"/Applications/MAMP/htdocs/Passavinti/image.html",
+		"/Applications/MAMP/htdocs/Passavinti/formmail/form.php",
+		"/Applications/MAMP/htdocs/Tedora/cover.css",
+		"/Applications/MAMP/htdocs/Passavinti/cathedrale.html",
+		"/Applications/MAMP/htdocs/Passavinti/아카이브/style.css",
+		"/Applications/MAMP/htdocs/Passavinti/아카이브/index.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/Old/index.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/img/wise-design logo.png",
+		"/Applications/MAMP/htdocs/Passavinti/아카이브/products/bronze.html",
+		"/Applications/MAMP/htdocs/needrest/index.html",
+		"/Applications/MAMP/htdocs/Tedora/src/Reader.html",
+		"/Applications/MAMP/htdocs/Tedora/src/JOB.js",
+		"/Applications/MAMP/htdocs/Tedora/src/barcode.html",
+		"/Applications/MAMP/htdocs/Tedora/src/DecoderWorker.js",
+		"/Applications/MAMP/htdocs/Tedora/src/exit.js",
+		"/Applications/MAMP/htdocs/Tedora/src/StreamDemo.html",
+		"/Applications/MAMP/htdocs/Tedora/bootstrap-3.3.5-dist/js/bootstrap.js",
+		"/Applications/MAMP/htdocs/Tedora/formmail/form_send.php",
+		"/Applications/MAMP/htdocs/Tedora/formmail/form.php",
+		"/Applications/MAMP/htdocs/Tedora/formmail/mailer.php",
+		"/Applications/MAMP/htdocs/Tedora/mail.php",
+		"/Applications/MAMP/htdocs/Tedora/bootstrap-3.3.5-dist/css/anakin.css",
+		"/Applications/MAMP/htdocs/Tedora/bootstrap-3.3.5-dist/js/npm.js",
+		"/Applications/MAMP/htdocs/Passavinti/style.css",
+		"/Applications/MAMP/htdocs/Passavinti/passavinti-aboutus.html",
+		"/Applications/MAMP/htdocs/Passavinti/passavinti-jp.html",
+		"/Applications/MAMP/htdocs/Passavinti/passavinti-masonry.html",
+		"/Applications/MAMP/htdocs/Passavinti/passavinti-JP.sublime-workspace",
+		"/Applications/MAMP/htdocs/Passavinti/Passavinti-masonry.html",
+		"/Applications/MAMP/htdocs/Passavinti/Passavinti-aboutus.html",
+		"/Applications/MAMP/htdocs/Passavinti/arazzo.html",
+		"/Applications/MAMP/htdocs/Passavinti/Passavinti-JP.html",
+		"/Applications/MAMP/htdocs/wordpress/wp-config-sample 복사본.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-config-sample.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-config.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-login.php",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/style.css",
+		"/Applications/MAMP/htdocs/wordpress/index.php",
+		"/Applications/MAMP/htdocs/WiseFood/about.html",
+		"/Applications/MAMP/htdocs/WiseFood/index.html",
+		"/Applications/MAMP/htdocs/WiseFood/contact.html",
+		"/Applications/MAMP/htdocs/Wise-Rakuten/index2.html",
+		"/Applications/MAMP/htdocs/Passavinti-men.html",
+		"/Applications/MAMP/htdocs/Passavinti.html",
+		"/Applications/MAMP/htdocs/style.css",
+		"/Applications/MAMP/htdocs/facebook.html",
+		"/Applications/MAMP/htdocs/Passavinti-products.html",
+		"/Applications/MAMP/htdocs/Passavinti-JP.html",
+		"/Applications/MAMP/htdocs/Passavinti-aboutus.html",
+		"/Applications/MAMP/htdocs/Passavinti-products",
+		"/Applications/MAMP/htdocs/Passavinti-JP.sublime-project",
+		"/Applications/MAMP/htdocs/Passavinti-Japan/Passavinti-JP.html",
+		"/Users/cloudy/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/cloudy/Desktop/Passavinti-Japan/Passavinti-JP.html",
+		"/Users/cloudy/Desktop/HomePage/Html",
+		"/Users/cloudy/Desktop/HomePage/js/script.js",
+		"/private/var/folders/nj/pgxl2q957rxdd5gsy100r_v00000gn/T/TemporaryItems/Repair Result to 2015, Estimated income statement (Eng) 07478.xml",
+		"/Users/cloudy/Desktop/HomePage/Jquery.html",
+		"/Users/cloudy/Desktop/HomePage/twitter.html",
+		"/Users/cloudy/Desktop/HomePage/bootstrap-3.3.1-dist/dist/css/Bootstrap",
+		"/Users/cloudy/Desktop/HomePage/JS_function.html",
+		"/Users/cloudy/Desktop/HomePage/JS_password.html",
+		"/Users/cloudy/Desktop/HomePage/JS_variable.html",
+		"/Users/cloudy/Desktop/HomePage/JS_setattribute.html",
+		"/Users/cloudy/Desktop/HomePage/JS_getElementByld.html",
+		"/Users/cloudy/Desktop/HomePage/js_alert.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navbar-hea",
+			"navbar-collapse",
+			".navbar-colla",
+			"pagebo",
+			"2",
+			"000000042",
+			"#",
+			"href=\"#\">",
+			"-icon",
+			"logo",
+			"blogo",
+			"img/",
+			"img",
+			"images/",
+			"商品の品質には万全を期",
+			"nav",
+			"ul ",
+			"<style",
+			"style>",
+			"style ",
+			"style",
+			"form ",
+			"form",
+			"navbar-form",
+			"navbar-brand",
+			"navbar-icon",
+			"navbar-icond",
+			"navbar-brand",
+			"navbar-form",
+			"navbar ",
+			"navbar",
+			"navbar-fixed-top",
+			"navbar-form",
+			"ul",
+			"navbar-form",
+			"footer",
+			"fixed",
+			"a",
+			"navbar",
+			"navbar-br",
+			"navbar-head",
+			"ul",
+			"navbar-form",
+			"glyphicon-se",
+			"glyphicon-ser",
+			"body",
+			"li",
+			"navbar-ri",
+			"nav",
+			"collapse",
+			"container-fluid",
+			"navbar-fixed-top",
+			"navbar",
+			"dropdown-header",
+			"collapse",
+			"navbar-collapse",
+			"navbar-left",
+			"navbar-header",
+			"dropdown",
+			"footera",
+			"dropdown",
+			"footer",
+			"dist/di",
+			"1-dist",
+			"-dist/",
+			"-dist/di",
+			"dist/d",
+			"dist",
+			"dist/di",
+			"1-dist",
+			"-dist/",
+			"1-dist/d",
+			"ist/d",
+			"ist/c",
+			"dist/",
+			"1-dist/dist/",
+			"1-dist/dist/c",
+			"1-dis",
+			"1-dist/di",
+			"1-dist/dist",
+			"dist/",
+			"-dist/dist",
+			"1-dist/dist",
+			"3.3.1",
+			"1-dis",
+			"/dist",
+			"dist/",
+			"bootstrap-3.3.1",
+			"bootstrap-3.3.",
+			"5",
+			"href=\"",
+			"items",
+			"full",
+			"contain",
+			"cover",
+			"</p>",
+			"</p<",
+			"</br>\n",
+			"<br>",
+			"d=\"pgimg\"",
+			"pgimg",
+			"id",
+			"bg",
+			"ol-md-5",
+			"col-sm-5",
+			"col-sm-11",
+			"col-xs-10",
+			"col-md-6",
+			"col-sm-6",
+			"col-xs-10",
+			"col-xs-11",
+			"col-xs-12 col-sm-6",
+			"col-xs-12",
+			"col-md-5",
+			"col-sm-5",
+			"col-xs-10",
+			"contact",
+			"site-wrapper",
+			"container",
+			"site-wrapper-inner",
+			"md-11",
+			"m-11",
+			"xs-11",
+			"col-md-offset-1",
+			"mid",
+			"i",
+			"form-group",
+			"col-mid-6"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
