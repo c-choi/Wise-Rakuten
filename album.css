@@ -5,8 +5,7 @@ body {
   display: none;
 }
 .navbar {
-  margin-bottom: 0;
-  background-color: #001e2f;
+    background-color: #001e2f;
 }
 li ul {
     opacity: 0;
@@ -17,7 +16,10 @@ li:hover ul {
     opacity: 1;
     transition: all 0.5s ease 0s;
 }
-
+.container-fluid {
+  padding:0px !important;
+  margin:0px !important;
+}
 nav.sticky { 
   position: fixed; top: 0; 
 }
@@ -28,13 +30,9 @@ nav.sticky {
 .navbar-collapse .container-fluid {
   padding: 2rem 2.5rem;
   border-bottom: 1px solid #55595c;
+
 }
-.dropdown-menu {
-  background-color: #2f2f4d;
-}
-.dropdown-menu>li>a {
-  color: #9d9d9d;
-}
+
 
 .navbar-collapse h4 {
   color: #818a91;
@@ -108,12 +106,12 @@ border-radius:6px 0 6px 6px;
 }
 
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin-bottom: 0;
+  padding-top: 3rem;
+  margin-bottom: 0px;
   background-image: url(img/italian_flag.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height:100%
 }
 
 .jumbotron p:last-child {
@@ -132,6 +130,7 @@ border-radius:6px 0 6px 6px;
   position: relative;
   float: left;
 }
+
 .table-responsive {
   width:100%;
   border-color: none;
@@ -150,19 +149,15 @@ td {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
-  display: table-cell;
 }
 
 .card {
-  float: left;
   width: 25%;
+  float: left;
   padding-left: .75rem;
   padding-right: .75rem;
-  padding-top: auto;
   margin-bottom: 2rem;
   border: 0;
-  height: 30rem;
-  z-index: 2;
 }
 .card:hover {
   background-color: #e3e3e3;
@@ -233,3 +228,4 @@ td {
         width:100%;
   }
 }
+
