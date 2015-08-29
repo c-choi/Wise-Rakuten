@@ -228,4 +228,10 @@ td {
         width:100%;
   }
 }
-
+.parallex-window {
+  vertical-align: top;
+  min-height: 300px;
+  background: transparent;
+  width:100%;  
+  z-index: 1 !important;
+}
