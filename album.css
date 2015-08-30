@@ -4,6 +4,10 @@ body {
 #rakutenLimitedId_header {
   display: none;
 }
+#newitems {
+  width:100%;
+  height:500px;
+}
 .navbar {
     background-color: #001e2f;
 }
@@ -154,8 +158,8 @@ td {
 .card {
   width: 25%;
   float: left;
-  padding-left: .75rem;
-  padding-right: .75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 2rem;
   border: 0;
 }
