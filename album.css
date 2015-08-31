@@ -170,7 +170,7 @@ td {
   margin-bottom: 2rem;
 }
 .card:hover {
-  background-color: #e3e3e3;
+  background-color: #f3f3f3;
   color:black;
 }
 .card > a> img {
