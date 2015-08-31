@@ -6,8 +6,11 @@ body {
 }
 #newitems {
   width:100%;
-  height:500px;
+  height:1500px;
+  border:none;
+    vertical-align: top;
 }
+
 .navbar {
     background-color: #001e2f;
 }
@@ -167,11 +170,12 @@ td {
   background-color: #e3e3e3;
   color:black;
 }
-.card > img {
+.card > a> img {
   margin-bottom: .75rem;
   width:100%;
   text-align: center;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .footer {
