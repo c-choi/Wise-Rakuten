@@ -14,7 +14,7 @@ body {
   width:100%;
   height:1400px;
   border:none;
-    vertical-align: top;
+  vertical-align: top;
 }
 .flash {
   animation-duration: 4s;
@@ -239,11 +239,17 @@ td {
     .card{
       width:25%;
     }
+    #newitems {
+        height:800px;
+      }
+
   }
 @media (max-width: 500px) {
       .card{
-        width:100%;
-  }
+        width:100%;}
+      #newitems {
+        height:600px;
+}
 }
 .parallex-window {
   vertical-align: top;
