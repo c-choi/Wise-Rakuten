@@ -123,12 +123,8 @@ border-radius:6px 0 6px 6px;
 }
 
 .jumbotron {
-  padding-top: 3rem;
   margin-bottom: 0px;
-  background-image: url(img/italian_flag.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100%
+  padding: 0px;
 }
 
 .jumbotron p:last-child {
