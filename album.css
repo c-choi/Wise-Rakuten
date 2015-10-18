@@ -1,3 +1,45 @@
+#tab {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    z-index:1000;
+    width: 45px;
+    height: 130px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/coupon_image2.jpg);
+}
+.event {
+  width:130px;
+  height:130px;
+  display: block
+}
+#tab:hover, #tab:focus {
+  width: 130px;
+  height: 130px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/25coupon_image.jpg);
+}
+#tab2 {
+    position: fixed;
+    left: 0;
+    bottom: 160px;
+    z-index:1000;
+    width: 45px;
+    height: 130px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/reserve_image2.jpg);
+}
+
+#tab2:hover, #tab:focus {
+  width: 130px;
+  height: 130px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/reserve_image.jpg);
+}
 .disabled {
   pointer-events: none;
    cursor: default;
