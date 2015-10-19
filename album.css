@@ -87,6 +87,8 @@ nav.sticky {
 .navbar-brand {
   font-weight: bold;
   color:#DDDDDD !important;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 .navbar-collapse .container-fluid {
   padding: 2rem 2.5rem;
@@ -101,8 +103,9 @@ nav.sticky {
   color: #818a91;
 }
 #navbar-icon {
-  width: 30px;
-  height: 25px;
+  width: 35px;
+  height: 30px;
+  vertical-align: middle;
 }
 
 .dropdown-submenu{
