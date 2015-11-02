@@ -1,7 +1,7 @@
 #tab {
     position: fixed;
     left: 0;
-    bottom: 10px;
+    bottom: 160px;
     z-index:1000;
     width: 45px;
     height: 130px;
@@ -24,7 +24,7 @@
 #tab2 {
     position: fixed;
     left: 0;
-    bottom: 160px;
+    bottom: 10px;
     z-index:1000;
     width: 45px;
     height: 130px;
