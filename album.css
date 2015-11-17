@@ -6,7 +6,7 @@
     width: 45px;
     height: 130px;
     background-size: cover;
-    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/coupon_image2.jpg);
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon2.jpg);
 }
 .event {
   width:130px;
@@ -19,7 +19,7 @@
   z-index:1000;
   position: fixed;
   background-size: cover;
-  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/25coupon_image.jpg);
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon.jpg);
 }
 #tab2 {
     position: fixed;
@@ -29,7 +29,7 @@
     width: 45px;
     height: 130px;
     background-size: cover;
-    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/reserve_image2.jpg);
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon2.jpg);
 }
 
 #tab2:hover, #tab:focus {
@@ -38,7 +38,7 @@
   z-index:1000;
   position: fixed;
   background-size: cover;
-  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/reserve_image.jpg);
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon.jpg);
 }
 .disabled {
   pointer-events: none;
@@ -219,6 +219,7 @@ td {
 .card:hover {
   background-color: #f3f3f3;
   color:black;
+
 }
 .card > a> img {
   margin-bottom: .75rem;
