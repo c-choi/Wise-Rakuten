@@ -11,9 +11,9 @@
 あなたに合う商品がきっと見つかります。
 お問合せは、楽天ショップ「wise」までどうぞ！！">
     <link rel="icon" href="img/favicon.ico">
-    <link rel="image_src" href="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crobus001n-2.jpg">
-    <meta property="og:image" content="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crobus001n-2.jpg"/>
-
+    <link rel="image_src" href="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/mainwlogo.jpg">
+    <meta property="og:image" content="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/mainwlogo.jpg"/>
+    <meta property="fb:app_id" content="1056067777788748"/>
     <title>ワイズデザイン</title>
 
     <!-- Bootstrap core CSS -->
@@ -24,7 +24,23 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bootstrap-3.3.5-dist/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1056067777788748',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <script type="text/javascript">
     $(document).ready(function() {
         var stickyNavTop = $('nav').offset().top;
@@ -48,6 +64,27 @@
 
 
 </script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '214283245570810');
+fbq('track', "PageView");
+fbq('track', 'ViewContent');
+fbq('track', 'AddToCart');
+fbq('track', 'AddToWishlist');
+fbq('track', 'InitiateCheckout');
+fbq('track', 'AddPaymentInfo');
+fbq('track', 'Purchase', {value: '0,000', currency: 'JPY'});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=214283245570810&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
 <!-- Google Analytics -->
 <script>
@@ -68,32 +105,39 @@
 
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid" id="navbar-fluid">
-        <div class="navbar-header navbar-left">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://www.rakuten.ne.jp/gold/ysfull-market/"><span><img id="navbar-icon" src="img/wdlogo.png" alt="Wise Design"> WISE DESIGN </span></a>
+      <div id="navbar-fluid">
+          
+          <a class="navbar-brand hidden-xs" href="http://www.rakuten.ne.jp/gold/ysfull-market/"><span><img id="navbar-icon" src="img/wdlogo.png" alt="Wise Design"> WISE DESIGN</span></a>
         </div><!--navbar header-->
+        
+        <ul class="nav navbar-nav display-xs hidden-sm hidden-md hidden-lg" style="display:-webkit-inline-box; margin:0px;">
+        <div class="navbar-header navbar-left">
+          
+          <a class="navbar-brand" style="padding:3px; padding-top:10px;" href="http://www.rakuten.ne.jp/gold/ysfull-market/"><span><img id="navbar-icon" src="img/wdlogo.png" alt="Wise Design"></span></a>
+        </div><!--navbar header-->
+<li class="disabled hidden-xs"><a style="padding:15px; font-weight:bolder; color:red;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">Sale</a></li>
+<li><a style="padding:15px; font-weight:bolder;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000448/">Bag</a></li>
+<li><a style="padding:15px; font-weight:bolder;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000449/">Wallet</a></li>
+<li><a style="padding:15px; font-weight:bolder;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000451/">Ring</a></li>
+<li><a style="padding:15px; font-weight:bolder;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000450/">Bracelet</a></li>
+        </ul>
 
         <div class="navbar-collapse collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン</a>
+            <li class="disabled hidden-sm hidden-md hidden-lg"><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">キャンペーン </a>
             </li>
-            <li><a style="color:red;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000447/"><b> 数量限定 </b></a>
+            <li class="hidden-xs hidden-sm hidden-md"><a style="color:red;" href="http://item.rakuten.co.jp/ysfull-market/c/0000000447/"><b> 数量限定 </b></a>
             </li>
                  <!--WiseDesignリストここから-->
             <li class="dropdown">
-              <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000386/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">WISE DESIGN <span class="caret"></span></a>
+              <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000386/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">WISE DESIGN </a>
 
             <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000390/">バッグ</a></li>
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000391/">財布</a></li>
+            <li><img src="http://www.rakuten.ne.jp/gold/ysfull-market/img/wdlogo.png" style="width:100%"></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000390/">バッグ </a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000391/">財布 </a></li>
             <li class="divider"></li>
-            <li class="dropdown-submenu"><a tabindex="-1">小物</a>
+            <li class="dropdown-submenu"><a tabindex="-1">小物 </a>
                 <ul class="dropdown-menu">
 
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000393/">名刺入れ</a></li>
@@ -103,19 +147,20 @@
             </ul>
             </li>
             <li class="divider"></li>
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000400/">その他</a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000400/">その他 </a></li>
             </ul>
             </li>
                     <!--WiseDesignリストここまで-->
                     <!--Parrisリストここから-->
             <li class="dropdown">
-              <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000387/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Parri's <span class="caret"></span></a>
+              <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000387/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Parri's </a>
 
             <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000404/">バッグ</a></li>
-            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000405/">財布</a></li>
+            <li><img src="http://www.rakuten.ne.jp/gold/ysfull-market/img/parris_banner.jpg" style="width:100%"></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000404/">バッグ  </a></li>
+            <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000405/">財布 </a></li>
             <li class="divider"></li>
-                <li class="dropdown-submenu"><a tabindex="-1">小物</a>
+                <li class="dropdown-submenu"><a tabindex="-1">小物 </a>
                 <ul class="dropdown-menu">
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000408/">名刺入れ</a></li>
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000409/">ベルト</a></li>
@@ -131,8 +176,10 @@
               <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000388/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">TEDORA <span class="caret"></span></a>
 
             <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li><img src="http://www.rakuten.ne.jp/gold/ysfull-market/img/model.jpg" style="width:100%"></li>
             <li class="dropdown-submenu"><a tabindex="-1" href="http://item.rakuten.co.jp/ysfull-market/c/0000000410/">Composable</a>
                 <ul class="dropdown-menu">
+               
                 <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000441/">Set</a></li>
                 <li><a role="button" href="http://item.rakuten.co.jp/ysfull-market/c/0000000413/">Bead</a></li>
                 <li><a role="button" href="http://item.rakuten.co.jp/ysfull-market/c/0000000414/">Charm</a></li>
@@ -161,6 +208,7 @@
               <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000389/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Passavinti <span class="caret"></span></a>
 
             <ul class="dropdown-menu" role="menu" aria-labelledby="dlabel">
+            <li><img src="http://www.rakuten.ne.jp/gold/ysfull-market/img/passavinti_model.jpg" style="width:100%"></li>
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000440/">Gold</a></li>
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000443/">Necklace</a></li>
             <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000444/">Earring</a></li>
@@ -169,34 +217,6 @@
             </ul>
             </li>
 
-
-           <!-- <li class="dropdown-submenu"><a tabindex="-1" href="http://item.rakuten.co.jp/ysfull-market/c/0000000421/">Silver</a>
-                <ul class="dropdown-menu">
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000424/">Arazzo</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000426/">Luxury</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000427/">Galaxy</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000428/">Romantica</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000429/">Reflessi</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000430/">Infinito</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-submenu"><a tabindex="-1" href="http://item.rakuten.co.jp/ysfull-market/c/0000000422/">Bronze</a>
-                <ul class="dropdown-menu">
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000431/">Capri</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000432/">Tartan</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000433/">Movimenti</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000434/">Forme</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000435/">Elementi</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000436/">Trame</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000437/">Intercci</a></li>
-                </ul>
-            </li>
-            <li class="dropdown-submenu"><a tabindex="-1" href="http://item.rakuten.co.jp/ysfull-market/c/0000000423/">Unisex</a>
-                <ul class="dropdown-menu">
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000438/">Firenze</a></li>
-                <li><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000439/">Tartan</a></li>
-                </ul>
-            </li-->
                     <!--Passavintiリストここまで-->
                     <!--Rakutenリストここから-->
             <li class="dropdown hidden-sm">
@@ -213,14 +233,15 @@
             </li>
             <!--Rakutenリストここまで-->
 
-          </li></ul>
+          </li>
+          </ul>
            
 
-            <form class="navbar-form navbar-right hidden-xs hidden-sm hidden-md" name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" role="search">
+            <form class="navbar-form navbar-right hidden-lg hidden-xs hidden-sm hidden-md" name="searchform4" id="searchform4" method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" role="search">
             <div class="form-group">
             <input type="hidden" class="form-control" name="sv" value="6">
             <input type="hidden" class="form-control" name="sid" value="270712">
-            <input type="hidden" class="form-control" name="su" value="http://www.rakuten.ne.jp/gold/ysfull-market/">
+            <input type="hidden" class="form-control" name="su" value="http://">
             <input type="hidden" class="form-control" name="sn" value="WISE">
             <input type="text" class="form-control" name="sitem">
             <input type="hidden" class="form-control" name="f" value="A">
@@ -231,374 +252,218 @@
             </a>
             </div>
             </form>
-     
         </div> 
       </div><!--container-fluid-->
     </nav>
-<!--
+<div id="tab_bag"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000448/"></a></div>
+<div id="tab_wallet"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000449/"></a></div>
+<div id="tab_bracelet"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000450/"></a></div>
+<div id="tab_ring"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000451/"></a></div>
+<div id="tab_earring"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000452/"></a></div>
+<div id="tab_necklace"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000453/"></a></div>
+
+<div id="tab"><a class="event"></a></div>
 
 <div id="tab2"><a class="event" href="http://item.rakuten.co.jp/ysfull-market/c/0000000447/"></a></div>
 
-<div id="tab"><a class="event" href="http://coupon.rakuten.co.jp/getCoupon?getkey=WlJHVi1UT1Q4LVVBVVAtUjdCVg--&rt="></a></div>
-<br />-->
+<div class="container-fluid" style="margin-top:50px !important; padding:none !important;">
 
-
-<!--<div class="parallex-window" data-parallax="scroll" data-image-src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/shoprenewal2.jpg" style="margin-top:50px !important; width:100%">
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="background:transparent">
+<div class="box4">
+<div class="rollover animated fadeInLeft" style="width:100%; height:99%; position:absolute; text-align:center;"><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000386/"><h1 style="color:grey;"><br /><br /><br /><br /> オリジナルブランド<br /><br />
+          <p style="color:navy">Wise Design</p><br /><span class="label label-danger"> ブランドページへ</span><br /></h1></a></div>
+          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000386/"><img class="img-responsive" align="center" src="img/wisedesign.png" border="0"/></a><br />
 </div>
-
-<div class="jumbotron" style="margin-top:50px; z-index:2; position:absolute; width: 100%"><img class="img-responsive" style="width:100%" src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/sale5.jpg"></div>
--->
-<div class="container-fluid" >
-<iframe class="col-lg-12 hidden-sm hidden-xs" style="width:100%; height: 1120px; margin-top: -120px; border-width:0px;" scrolling="no" src="http://item.rakuten.co.jp/ysfull-market/c/0000000370/">
-</iframe>
 </div>
-<div class="visible-sm visible-xs" style="height:100px;"></div>
-<div class="container-fluid">
-<div class="col-lg-offset-2 col-lg-8">
-<div id="carousel-rakuten" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-rakuten" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-rakuten" data-slide-to="1"></li>
-    <li data-target="#carousel-rakuten" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/incheon.jpg" alt="インチョン空港店オープン">
-    </div>
-    <div class="item col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/businessbagc.jpg" alt="牛革ビジネスバック">
-    </div>
-    <div class="item col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/manufacture.jpg" alt="ハンドメイド">
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-rakuten" role="button" style="background-image: linear-gradient(to right,rgba(0,0,0,.01) 0,rgba(0,0,0,.0001) 100%);" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-rakuten" role="button" style="background-image: linear-gradient(to right,rgba(0,0,0,.01) 0,rgba(0,0,0,.0001) 100%);" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding:0px !important;">
+<div class="box4">
+<div class="rollover animated fadeInRight" style="width:100%; height:99%; position:absolute; text-align:center;"><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000388/"><h2 style="color:grey;"> イタリアチャームジュエリー<br /><br />
+          <p style="color:crimson">TEDORA</p><br /> <span class="label label-warning"> ブランドページへ</span><br /></h2></a><br /><br /></div>
+          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000388/"><img class="img-responsive" align="center" src="img/model.jpg" border="0"/></a>
 </div>
 </div>
 
-<!--
--->
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding:0px !important;">
+<div class="box4">
+<div class="rollover animated fadeInRight" style="width:100%; height:99%; position:absolute; text-align:center;"><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000389/"><h2 style="color:grey;"> イタリアジュエリーブランド<br /><br />
+          <p style="color:black">Passavinti</p><br /> <span class="label label-primary"> ブランドページへ</span><br /></h2></a><br /><br /></div>
+          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000389/"><img class="img-responsive" align="center" src="img/passavinti_model.jpg" border="0"/></a>
+</div>
 </div>
 
-<!--
-<div class="container-fluid">
-<h2 align="center" width="100%" height="85" border="0" style="border:0px; margin-top:0px; margin-bottom:10px;" >NEW & HOT</h2>
-<section class="text-center" style="background-color:white; margin-top:0px;">
-<div class="entry_body">
-        <div class="row">
-          <div class="card">
-          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000386/" title="ブランドページへ">
-            <img class="img-responsive" src="img/wdlogo.png" alt="Wise Design">
-            <img class="img-responsive" src="img/shoprenewal.jpg" alt="Wise Design">
-            </a>
-          </div> 
-          <div class="card">
-          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000387/" title="ブランドページへ">
-            <img class="img-responsive" src="img/parris_black_logo.png" alt="Parri's">
-            <img class="img-responsive" src="img/parris_banner.jpg" alt="Wise Design">
-          </a>
-          </div>          
-          <div class="card">
-          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000388/" title="ブランドページへ">
-            <img class="img-responsive" src="img/TEDORA-LOGO-shadow.png" alt="TEDORA">
-            <img class="img-responsive" src="img/model.jpg" alt="Wise Design">
-          </a>
-          </div>
-          <div class="card">
-          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000389/" title="ブランドページへ">
-            <img class="img-responsive" src="img/passavinti_logo_new.png" alt="Passavinti">
-            <img class="img-responsive" src="img/passavinti_model.jpg" alt="Wise Design">
-          </a>
-          </div>
-        </div>
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="padding:0px !important;">
+<div class="box4">
+<div class="rollover animated fadeInRight" style="width:100%; height:99%; position:absolute; text-align:center;"><a href="http://item.rakuten.co.jp/ysfull-market/c/0000000387/"><h2 style="color:grey;">イタリアクロコダイルブランド<br /><br />
+          <p style="color:black">Parri's</p><br /> <span class="label label-primary"> ブランドページへ</span><br /></h2></a><br /><br /></div>
+          <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000387/"><img class="img-responsive" align="center" src="img/parris_banner.jpg" border="0"/></a>
 </div>
-    </section>
-</div>
--->
-
-
-
-
-<div class="col-lg-9 col-xs-12">
-
-
- <!--更新情報ここまで-->
-
-<!--4BOXここから-->
-<table class="table-responsive table-condensed">
-<tr>
-<td>
-<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/1010cowbus004/"><span class="label label-danger">HOT!</span><span class="label label-info">Sale!</span>
-<h4>【Wise Design】<br />
-          牛革ビジネスバック<br />
-          </h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010cowbus004/"><h5>COWBUS004<br /><br />
-          Wise価格:<br /><br /><p class="black" style="color:black; line-height:0.3;"><br/>84,000円</p>↓<br/>　<p class="price"><b>16,200円（税込）</b></p>
-          </h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/1010cowbus004/" title="牛革ビジネスバック"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/cowbus004-2.jpg" alt="牛革ビジネスバック" /></a></div>
 </div>
 
-</td>
-<td>
+</div>
 
+<div class="col-lg-12" id="parallextop"><a href="http://item.rakuten.co.jp/ysfull-market/1010crobody002/"><img style="width:100%; position:absolute; top:200px;" src="img/test2.png"></a></div>
+
+<div class="parallex-window" data-parallax="scroll" data-image-src="img/test.jpg" style="margin-top:0px; height:1200px; width:100%;">
+</div>
+
+
+<div class="col-lg-12 col-sm-12 col-xs-12" style="margin-top:35px; padding:0px !important" >
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<div class="box4">
+<a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><span class="label label-danger">HOT!</span>
+<h4>【Wise Design】<br />クロコダイルマット/牛革ショルダーバック
+<br /></h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><h4><br />CROSHO001<br /><br />
+          Wise価格:<p class="price">540,000円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crosho001.jpg" /></a></div>
+</div>
+
+
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4">
 <a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd013/"><span class="label label-warning">NEW!</span>
 <h4>【Parris】<br />
 クロコダイルBelenトートバック</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd013/"><h5>WPAHTD013<br /><br />
-          Wise価格:<br /><br /><p class="price">1,930,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd013/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahtd013-4.jpg" alt="イタリアブランドParri's" /></a></div>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd013/"><h4>WPAHTD013<br /><br />
+          Wise価格:<p class="price">1,930,000円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd013/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahtd013-4.jpg" alt="イタリアブランドParri's" /></a></div>
 </div>
-</td>
 
-<td>
-<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/301412amberbouquet/"><span class="label label-warning">NEW!</span>
+
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/301412redcandypop/"><span class="label label-warning">NEW!</span>
 <h4>【TEDORA】<br />
-         Amber Bouquet シルバーセット</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301412amberbouquet/"><h5>
-Amber Bouquet <br /><br />
-
-          Wise価格:<br /><br /><p class="price">68,500円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/301412amberbouquet/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/composable/amberbouquet.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
+         RED CANDY POPシルバーセット</h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301412redcandypop/"><h4>
+Red Candy Pop<br /><br />
+          Wise価格:<p class="price">73,500円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/301412redcandypop/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/composable/redcandypop.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
 </div>
-</td>
 
-<td>
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/4017an0315gp/"><span class="label label-warning">NEW!</span>
-<h4>【Passavinti】<br />キュービック/ゴールドリング</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4017an0315gp/"><h5>
+<h4>【Passavinti】<br />キュービックジルコニア/ゴールドリング</h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4017an0315gp/"><h4>
 AN0315GP<br /><br />
-          Wise価格:<br /><br /><p class="price">43,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/4017an0315gp/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/gold/an0315gp.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
+          Wise価格:<p class="price">39,800円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/4017an0315gp/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/gold/an0315gp.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
 </div>
-</td>
-</tr>
-
+</div>
 <br class="clear" />
 
 <!--4BOXここまで-->
         <!--4ごとに必ずこのタグを入れる-->
-<tr>
-
-<td>
+<div class="col-lg-12 col-sm-12 col-xs-12" style="padding:0px !important" >
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/1010crobus001n/"><span class="label label-danger">HOT!</span>
-<h4>【Wise Design】<br />クロコヌバック/牛革ビジネスバック
-
+<h4>【Wise Design】<br />クロコダイルヌバック/牛革ビジネスバック
           <br />
           </h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010crobus001n/"><h5>CROBUS001N<br /><br />
-         
-          Wise価格:<br /><br /><p class="price">1,242,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/1010crobus001n/" title="柔らかで上品な手触りと深い光沢感のヌバック加工を施したクロコダイル革を使った最高級ビジネスバッグ"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crobus001n.jpg" alt="柔らかで上品な手触りと深い光沢感のヌバック加工を施したクロコダイル革を使った最高級ビジネスバッグ" /></a></div>
-
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010crobus001n/"><h4>CROBUS001N<br /><br /> 
+          Wise価格:<p class="price">1,242,000円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/1010crobus001n/" title="柔らかで上品な手触りと深い光沢感のヌバック加工を施したクロコダイル革を使った最高級ビジネスバッグ"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crobus001n.jpg" alt="柔らかで上品な手触りと深い光沢感のヌバック加工を施したクロコダイル革を使った最高級ビジネスバッグ" /></a></div>
 </div>
-</td>
 
 
-<td>
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd010/"><span class="label label-warning">NEW!</span>
-<h4>【Parris】<br />クロコシャイニートートバッグ
+<h4>【Parris】<br />クロコダイルシャイニートートバッグ
 
 </h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd010/"><h5>WPAHTD010<br /><br />
-          Wise価格:<br /><br /><p class="price"><br/>1,510,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd010/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahtd010-2.jpg" alt="イタリアブランドParri's" /></a></div>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd010/"><h4>WPAHTD010<br /><br />
+          Wise価格:<p class="price">1,510,000円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/2010wpahtd010/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahtd010-2.jpg" alt="イタリアブランドParri's" /></a></div>
 </div>
-</td>
-<td>
+
+
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/301512bas_black-23/"><span class="label label-warning">NEW!</span>
 <h4>【TEDORA】<br />
           BAS BLACK シルバー/牛革セット</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301512bas_black-23/"><h5>BAS BLACK<br /><br />
-          Wise価格:<br /><br /><p class="price">22,800円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/301512bas_black-23/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/pushin/bas_black-23.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301512bas_black-23/"><h4>BAS BLACK<br /><br />
+          Wise価格:<p class="price">70,200円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/301512bas_black-23/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/pushin/bas_black-23.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
 </div>
-        <br class="clear" />
 
-</td>
-<td>
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/4017br0215g/"><span class="label label-warning">NEW!</span>
 <h4>【Passavinti】<br />
-          ブラウンダイヤ/ゴールドブレスレット</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4017br0215g/"><h5>BR0215G<br />
+          ブラウンダイヤモンド/ゴールドブレスレット</h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4017br0215g/"><h4>BR0215G<br />
           <br />
-          Wise価格:<br /><br /><p class="price">25,800円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/4017br0215g/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/gold/br0215g.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
+          Wise価格:<p class="price">23,800円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/4017br0215g/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/gold/br0215g.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
 </div>
-</td>
-
-</tr>
-
-
+</div>
+        <br class="clear" />
 <!--4BOXここから-->
    <!--4ごとに必ずこのタグを入れる-->
-<tr>
-<td>
-<style type="text/css">
-  .box4 {
-    width:100%;
-    vertical-align: middle;
-  }
-  td {
-    width:25%;
-    text-align: center;
-  }
-  a {
-    color:black;
-  }
-  a:focus, a:hover {
-    text-decoration: none;
-  }
-  .img-responsive {
-    width:100%;
-  }
-
-.sub-header {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
- body {
-  padding-top: 0px;
- }
- .rollover {
-  display : none;
-  height: auto;
-  vertical-align: middle;
-}
-.box4:hover > .rollover {
-  display: block;
-  z-index: 3;
-  position: absolute;
-  text-align: center !important;
-  background-color: #f8f8f8;
-  width:23%;
-  height:155px;
-  opacity: 0.8;
-   vertical-align: middle;
-}
-td:hover {
-  background-color: #eeeaFF;
-}
-.box4:hover>.box-img-left3 {
-  opacity:0.5;
-}
-h5 {
-  color:black;
-  line-height: 20px;
-}
-h5>a:focus, h5>a:hover {
-  text-decoration: none;
-  color:black;
-}
-.price {
-margin-top: 5px;
-color: red;
-font-size: 18px;
-font-weight: bold;
-}
-h4 {
-margin-top: 10px;
-}
-@media (max-width: 500px) {
-  .box4:hover > .rollover {
-    display: none;
-  }
-    h5 {
-      font-size: 9px;
-    }
-    h4 {
-      font-size: 11px;
-    }
-}
-  @media (max-width: 850px) {
-    h5 {
-      font-size: 9px;
-      line-height: 10px;
-    }
-    h4 {
-      font-size: 11px;
-    }
-    .box4:hover > .rollover {
-    height: 10%;
-    width:24%;
-  }
-    .box4:hover > h5 {
-    font-size: 9px;
-    }
-  }
-}
-
-</style>
-<div class="box4">
-<a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><span class="label label-danger">HOT!</span>
-<h4>【Wise Design】<br />クロコマット/牛革ショルダーバック
-<br /></h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><h5><br />CROSHO001<br /><br />
-          Wise価格:<br /><br /><p class="price">540,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/1010crosho001/"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crosho001.jpg" border="0"/></a></div>
+<div class="col-lg-12 col-sm-12 col-xs-12" style="padding:0px !important" >
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/1010crominihb01/"><span class="label label-danger">HOT!</span>
+<h4>【Wise Design】クロコダイル本革<br />
+          クロコダイルシャイニー/牛革ミニハンドバック<br />
+          </h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/1010crominihb01/"><h4>CROMINIHB01<br /><br />
+          Wise価格:<p class="price">259,200円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/1010crominihb01/" title="クロコダイル革ミニハンドバック"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/wisedesign/bag/crominihb01.jpg" alt="クロコダイル革ミニハンドバック" /></a></div>
 </div>
-</td>
-<td>
 
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahsd045/"><span class="label label-warning">NEW!</span>
 <h4>【Parris】<br/>パイソンショルダーバック</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahsd045/"><h5>WPAHSD045<br /><br />
-          Wise価格:<br /><br /><p class="price">150,000円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahsd045/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahsd045-6.jpg" alt="イタリアブランドParri's" /></a></div>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/2010wpahsd045/"><h4>WPAHSD045<br /><br />
+          Wise価格:<p class="price">150,000円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/2010wpahsd045/" title="イタリアブランドParri's"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/parris/bag/wpahsd045-6.jpg" alt="イタリアブランドParri's" /></a></div>
 </div>
-</td>
-<td>
 
+
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 <div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/301616pbr067/"><span class="label label-warning">NEW!</span>
 <h4>【TEDORA】<br />オニキス/シルバーパイレーツ</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301616pbr067/"><h5>PBR067<br /><br />
-          Wise価格:<br /><br /><p class="price">16,700円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/301616pbr067/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/jewels/pbr067-20.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/301616pbr067/"><h4>PBR067<br /><br />
+          Wise価格:<p class="price">16,700円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/301616pbr067/" title="イタリアジュエリーブランドTedora"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/tedora/jewels/pbr067-20.jpg" alt="イタリアジュエリーブランドTedora" /></a></div>
 </div>
-</td>
-<td>
-<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/4021cl2105x/"><span class="label label-warning">NEW!</span>
-<h4>【Passavinti】 <br />ブロンズ・18Kゴールドネックレス</h4></a>
-<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4021cl2105x/"><h5>CL2105X<br />
+
+<div id="items" class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+<div class="box4"><a href="http://item.rakuten.co.jp/ysfull-market/4017or1015g/"><span class="label label-warning">NEW!</span>
+<h4>【Passavinti】 <br />ホワイダイヤモンド/ゴールドイアリング</h4></a>
+<div class="rollover pulse animated"><a href="http://item.rakuten.co.jp/ysfull-market/4017or1015g/"><h4>OR1015G<br />
           <br />
-          Wise価格:<br /><br /><p class="price">17,900円（税込）</p></h5></a></div>
-<div class="box-img-left3"><a href="http://item.rakuten.co.jp/ysfull-market/4021cl2105x/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/necklace/cl2105x.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
-
+          Wise価格:<p class="price">19,800円（税込）</p></h4></a></div>
+<a href="http://item.rakuten.co.jp/ysfull-market/4017or1015g/" title="イタリアジュエリーブランドPassavinti"><img class="img-responsive" align="center" src="http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/passavinti/gold/or1015g.jpg" alt="イタリアジュエリーブランドPassavinti" /></a></div>
 </div>
-</td>
-</tr>
+</div>
+
 <br class="clear" />
-
 <!--4BOXここまで-->
-            </table>
-      
-</div>
 
-<div class="col-lg-3 col-xs-12">
+<br />
+<br />
+<div class="col-lg-12 col-xs-12">
 <div class="well" style="padding-top:0px; padding-bottom:0px;"><br />
 
 <h2 align="center" width="100%" height="85" border="0" style="border-top-width : 0px; border-left-width : 0px;border-right-width : 0px;border-bottom-width : 0px; top:0px; z-index:1;" alt="What's New">What's New</h2>
 <br />
 <br />
+
 <div class="entry_body">
   <div class="new" align="left">
     <ul>
+    
+    <li>
+      <p><b>12/28 : 【年末年始休業日のご案内】　</b><br />
+      誠に勝手ながら<b style="color:red;">12月30日（水）</b>から<b style="color:red;">1月4日（月）</b>まで休業させて頂きます。
+      <br />
+      ご注文は受け付けておりますがご返信が<b style="color:blue;">1月5日以降</b>になりますので、予めご了承くださいませ。</p>
+      　</li>
+<br />
+
       <li>
-      <p>11/2 ： 【WISE DESIGN】ご好評に付きキャンペーン続行！！<br />
-      通常販売価格から最大50％OFFでお届けします。<br />
-      毎週で取扱商品を変え、どの商品が対象になるかはお楽しみ！<br />
+      <p><b>12/1 ： 【WISE DESIGN】年越しSALE！！</b><br />
+      本日から<b style="color:red;">12月31日23:59まで</b>通常販売価格から最大<b style="color:blue;">60％OFF</b>でお届けします。<br />
+      高級クロコダイル本革を始めお得な値段で購入できるビックチャンスです！<br />
       気になる方はキャンペーンページへGO!!!  <a href="http://item.rakuten.co.jp/ysfull-market/c/0000000370" style="color:blue;"><h4>キャンペーンページへ</h4></a></p>
       　</li>
 <br />
@@ -629,13 +494,53 @@ margin-top: 10px;
 </div>
 </div>
 </div>
+<br />
+
+<div class="visible-sm visible-xs" style="height:100px;"></div>
+<div class="container-fluid hidden-sm hidden-xs">
+<div class="col-lg-offset-2 col-lg-8">
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/incheon.jpg" alt="インチョン空港店オープン">
+    </div>
+    <div class="item col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/businessbagc.jpg" alt="牛革ビジネスバック">
+    </div>
+    <div class="item col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <img src="http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/manufacture.jpg" alt="ハンドメイド">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel" role="button" style="background-image: linear-gradient(to right,rgba(0,0,0,.01) 0,rgba(0,0,0,.0001) 100%);" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" style="background-image: linear-gradient(to right,rgba(0,0,0,.01) 0,rgba(0,0,0,.0001) 100%);" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<!--
+-->
+</div>
 
  <!-- ----------------------------------------------------------------- -->
-<div class="container-fluid">
-<div class="col-lg-12">
+
+
 <center><div class="modoru"><a href="#top"><h4><strong>ページ上に戻る</strong></h4></a></div></center>
-</div>
-</div>
+
 
 
 

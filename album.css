@@ -1,35 +1,155 @@
-#tab {
+.risfHeadFootWrap {
+  padding: 3px 3px 10px 3px!important; 
+}
+
+#tab_bag {
     position: fixed;
     left: 0;
-    bottom: 160px;
+    background-position: right;
+    top: 50px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/bag2.jpg);
+}
+#tab_bag:hover, #tab_bag:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/bag.jpg);
+}
+#tab_wallet {
+    position: fixed;
+    left: 0;
+    background-position: right;
+    top: 140px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/wallet2.jpg);
+}
+#tab_wallet:hover, #tab_wallet:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/wallet.jpg);
+}
+
+#tab_bracelet {
+    position: fixed;
+    left: 0;
+    background-position: right;
+    top: 230px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/bracelet2.jpg);
+}
+#tab_bracelet:hover, #tab_bracelet:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/bracelet.jpg);
+}
+#tab_ring {
+    position: fixed;
+    left: 0;
+    background-position: right;
+    top: 320px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/ring2.jpg);
+}
+#tab_ring:hover, #tab_ring:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/ring.jpg);
+}
+#tab_earring {
+    position: fixed;
+    left: 0;
+    background-position: right;
+    top: 410px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/earring2.jpg);
+}
+#tab_earring:hover, #tab_earring:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/earring.jpg);
+}
+#tab_necklace {
+    position: fixed;
+    left: 0;
+    background-position: right;
+    top: 500px;
+    z-index:1000;
+    width: 40px;
+    height: 90px;
+    background-size: cover;
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/necklace2.jpg);
+}
+#tab_necklace:hover, #tab_necklace:focus {
+  width: 90px;
+  height: 90px;
+  z-index:1000;
+  position: fixed;
+  background-size: cover;
+background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/category/necklace.jpg);
+}
+
+#tab {
+    position: fixed;
+    right: 0;
+    bottom: 0px;
     z-index:1000;
     width: 45px;
     height: 130px;
     background-size: cover;
-    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon2.jpg);
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/free_delivery.jpg);
 }
+
 .event {
   width:130px;
   height:130px;
   display: block
 }
-#tab:hover, #tab:focus {
-  width: 130px;
-  height: 130px;
-  z-index:1000;
-  position: fixed;
-  background-size: cover;
-  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon.jpg);
+.inventory_choice_name {
+  background-color: lightgrey !important;
+  border-color: black !important;
+  border-width: 3px !important;
+  border-collapse: separate;
 }
+
 #tab2 {
     position: fixed;
-    right: 0;
-    bottom: 10px;
+    right: 2px;
+    top: 50px;
     z-index:1000;
     width: 45px;
     height: 130px;
     background-size: cover;
-    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon2.jpg);
+    background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/jacket_event.jpg);
 }
 
 #tab2:hover, #tab:focus {
@@ -38,13 +158,15 @@
   z-index:1000;
   position: fixed;
   background-size: cover;
-  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/02307467/campaign001/x-coupon.jpg);
+  background-image: url(http://image.rakuten.co.jp/ysfull-market/cabinet/design_base/top/jacket_event2.jpg);
 }
+
 .disabled {
   pointer-events: none;
    cursor: default;
    color:lightgrey !important;  
 }
+
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
@@ -107,7 +229,12 @@ nav.sticky {
   height: 30px;
   vertical-align: middle;
 }
-
+.navbar-toggle {
+  border-color: white;
+}
+.collapse {
+  display:none !important;
+}
 .dropdown-submenu{
   position:relative;
 }
@@ -195,11 +322,9 @@ border-radius:6px 0 6px 6px;
   border-width: 0px;
 }
 
-td {
-  width:30%;
-  text-align: center;
-  padding-left: 1%;
-  padding-right: 2.333%;
+tbody {
+  border-color:black !important;
+  border-width: 3px !important;
 }
 
 .album {
@@ -290,8 +415,11 @@ td {
       .card{
         width:100%;}
       #newitems {
-        height:600px;
-}
+        height:600px;}
+      #tab,#tab2,#tab3,#tab_bag,#tab_wallet,#tab_bracelet,#tab_ring,#tab_earring,#tab_necklace {
+      display: none;
+    }
+
 }
 .parallex-window {
   vertical-align: top;
@@ -300,3 +428,111 @@ td {
   width:100%;  
   z-index: 1 !important;
 }
+#items {
+  padding:0px !important; 
+}
+.box4 {
+    width:100%;
+    text-align: center !important;
+
+  }
+a {
+    color:black;
+  }
+a:focus, a:hover {
+    text-decoration: none;
+  }
+.img-responsive {
+    width:100%;
+  }
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+ body {
+  padding-top: 0px;
+  background-color: transparent;
+ }
+ .rollover {
+  display : none;
+  height: auto;
+  z-index: 10;
+  opacity:1;
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.box4:hover > .rollover, .box4:focus > .rollove {
+  display: block;
+  z-index: 10;
+  position: absolute;
+  height:inherit;
+  width:100%;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.box4:hover>a>img, .box4:hover>a>h4,
+.box4:focus>a>img, .box4:focus>a>h4 {
+  opacity:0.2;
+}
+
+#items:hover, #items:focus {
+  background-color: #eeeaFF;
+}
+
+h5 {
+  color:black;
+  line-height: 20px;
+}
+h5>a:focus, h5>a:hover {
+  text-decoration: none;
+  color:black;
+}
+.price {
+margin-top: 10px;
+color: red;
+font-size: 22px;
+}
+h4 {
+margin-top: 10px;
+}
+@media (max-width: 500px) {
+
+
+    h4 {
+      font-size: 13px;
+    }
+    h2 {
+      font-size: 13px;
+    }    
+    .parallex-window {
+      height:400px !important;
+
+    }
+}
+  @media (max-width: 850px) {
+
+    h4 {
+      font-size: 15px;
+    }
+    h2 {
+      font-size: 13px;
+    }    
+
+    .box4:hover > h5 {
+    font-size: 9px;
+    }
+    .parallex-window {
+      height:700px !important;
+     
+    }
+  }
+
+@media (min-width: 1200px) {
+    h2 {
+      font-size: 36px;
+    }
+}
+
+
